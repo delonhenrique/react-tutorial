@@ -30,7 +30,7 @@ class Form extends Component {
 
         return(
             <form>
-                <label>Name</label>
+                <label>Nome</label>
                 <input
                     type="text"
                     name="name"
@@ -38,7 +38,7 @@ class Form extends Component {
                     onChange={this.handleChange}
                 />
 
-                <label>Job</label>
+                <label>Profissão</label>
                 <input
                     type="text"
                     name="job"
